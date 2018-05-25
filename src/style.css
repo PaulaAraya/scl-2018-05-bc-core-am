@@ -16,10 +16,22 @@ html {
     resize: none;
 height: 200px;
 width: 500px;
+position: relative;
+left: 20px;
+
   }
 
   .cipherResult{
     resize: none;
 height: 200px;
 width: 500px;
+position: relative;
+left: 180px;
   }
+
+#boton {
+    position: relative;
+    left: 580px;
+    bottom: 120px;
+
+}
