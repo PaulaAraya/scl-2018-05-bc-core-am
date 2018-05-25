@@ -12,7 +12,7 @@ html {
 
 }
 
-.cipherSubmit{
+.submit{
     resize: none;
 height: 200px;
 width: 500px;
@@ -21,7 +21,7 @@ left: 20px;
 
   }
 
-  .cipherResult{
+.result{
     resize: none;
 height: 200px;
 width: 500px;
