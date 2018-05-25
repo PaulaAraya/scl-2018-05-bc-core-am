@@ -1,1 +1,8 @@
-/* Acá va tu código */
+.box {
+    display: inline;
+    position: static;
+}
+
+.textarea {
+    resize: none;
+  }
