@@ -11,11 +11,15 @@ html {
     text-align: center;
 
 }
-.box {
-    display: inline;
-    position: static;
-}
 
-.textarea {
+.cipherSubmit{
     resize: none;
+height: 200px;
+width: 500px;
+  }
+
+  .cipherResult{
+    resize: none;
+height: 200px;
+width: 500px;
   }
