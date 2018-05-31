@@ -20,3 +20,9 @@ btnCipher.addEventListener("click", () => {
 }
 );
 
+btnDecipher.addEventListener("click", () => {
+  let descipherBoxSubmit = document.getElementById("descipherBoxSubmit")
+  console.log(descipherBoxSubmit);
+  descipherBoxResult.innerHtml = descipherBoxSubmit;
+}
+);
