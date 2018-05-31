@@ -12,6 +12,7 @@ const btnCipher = document.getElementById("btnCipher")
 
 btnDecipher.addEventListener("click", () => {
   let descipherBoxSubmit = document.getElementById("descipherBoxSubmit").value.toUpperCase();
+  let npd = parseInt(numberPositionDescipher.value);
   console.log(descipherBoxSubmit);
   descipherBoxResult.innerHTML = descipherBoxSubmit;
 });
@@ -24,6 +25,6 @@ btnCipher.addEventListener("click", () => {
 
 
 
-};  /* llave de window.onload*/
+};  
 
 
