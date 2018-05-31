@@ -11,9 +11,12 @@ let cipherBoxSubmit = document.getElementById("cipherBoxResult")
 let cipherBoxResult = document.getElementById("cipherBoxResult")
 let btnDecipher = document.getElementById("btnDecipher")
 let btnCipher = document.getElementById("btnCipher")
-}
-  document.getElementById("boton1").addEventListener("click", displayDate);
+};
 
-  function displayDate() {
-      document.getElementById("descipher").innerHTML  ;
-  }
+btnCipher.addEventListener("click", () => {
+  let cipherBoxSubmit = document.getElementById("cipherBoxSubmit").value;
+  console.log(cipherBoxSubmit);
+  descipherBoxResult.innerHtml = cipherBoxSubmit;
+}
+);
+
