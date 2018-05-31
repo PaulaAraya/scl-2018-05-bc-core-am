@@ -5,24 +5,23 @@
 
 window.onload = function () {
 let numberPosition = document.getElementById("numberPosition")
-let descipherBoxSubmit = document.getElementById("descipherBoxSubmit")
-let descipherBoxResult = document.getElementById(" descipherBoxResult")
-let cipherBoxSubmit = document.getElementById("cipherBoxResult")
+let descipherBoxResult = document.getElementById("descipherBoxResult")
 let cipherBoxResult = document.getElementById("cipherBoxResult")
 let btnDecipher = document.getElementById("btnDecipher")
 let btnCipher = document.getElementById("btnCipher")
 
-btnCipher.addEventListener("click", () => {
-  let cipherBoxSubmit = document.getElementById("cipherBoxSubmit").value;
-  console.log(cipherBoxSubmit);
-  descipherBoxResult.innerHtml = cipherBoxSubmit;
+btnDecipher.addEventListener("click", () => {
+  let descipherBoxSubmit = document.getElementById("descipherBoxSubmit").value;
+  console.log(descipherBoxSubmit);
+  descipherBoxResult.innerHtml = descipherBoxSubmit;
+  //descipherBoxSubmit.innerHtml = descipherBoxResult;
 }
 );
 
-btnDecipher.addEventListener("click", () => {
-  let descipherBoxSubmit = document.getElementById("descipherBoxSubmit")
-  console.log(descipherBoxSubmit);
-  descipherBoxResult.innerHtml = descipherBoxSubmit;
+btnCipher.addEventListener("click", () => {
+  let cipherBoxSubmit = document.getElementById("cipherBoxSubmit").value.toUpperCase();
+  console.log(cipherBoxSubmit);
+  cipherBoxResult.innerHtml = cipherBoxSubmit;
 }
 );
 };

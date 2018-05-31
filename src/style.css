@@ -13,25 +13,32 @@ html {
 }
 
 .submit{
-  resize: none;
+resize: none;
 height: 200px;
 width: 350px;
+display: inline-block;
 position: relative;
 left: 20px;
+top: 20px;
 
 }
 
 .result{
-  resize: none;
-height: 200px;
-width: 350px;
-position: relative;
-left: 180px;
+  height: 205px;
+  width: 355px;
+  background-color:white;
+  border: 1px solid gray;
+  border-right-style: dashed;
+  border-left-style: dashed;
+  display: inline-block;
+  position: relative;
+  left: 180px;
+  top: 22px;
 }
 
-#boton {
+.btn {
   position: relative;
-  left: 580px;
   bottom: 120px;
-
+  left: 600x;
+  bottom: 50 ;
 }

@@ -14,20 +14,21 @@
     <input class ="number" id = "numberPosition" type="number" min= "1" max= "20">
   </div>
   <section>
- <!-- cajas de descifrado -->      
-          <textarea id= "descipherBoxSubmit" class="submit" name="descipherSubmit" placeholder="Escribe aquí el Cifrado Cesar"></textarea>  
-          <textarea id= "descipherBoxResult" class="result" name="descipherSubmit"></textarea> 
+ <!-- cajas de descifrado -->   
+ 
+          <textarea id= "descipherBoxSubmit" class="submit" name="descipherSubmit" placeholder="Desifrado"></textarea>  
+          <div id= "descipherBoxResult" class="result" name="descipherSubmit"></div> <!-- dejo la caja de texto como div vacio -->
   </section>
   <!-- cajas de cifrado -->
   <section>    
-        <textarea id= "cipherBoxSubmit" class="submit" name="cipherSubmit" placeholder="Escribe aquí lo que deseas Cifrar"></textarea>  
-        <textarea id="cipherBoxResult" class="result" name="cipherSubmit"></textarea>   
+        <textarea id= "cipherBoxSubmit" class="submit" name="cipherSubmit" placeholder="Cifrado"></textarea>  
+        <div id="cipherBoxResult" class="result" name="cipherSubmit"></div>   
     <!-- Botones -->
     <div>
-        <input id="btnDecipher" type="submit" value="Desciframe"/>
+        <input id="btnDecipher" class ="btn" type="submit" value="Desciframe"/>
       </div>
     <div>
-        <input id="btnCipher" type="submit" value="Ciframe"/>
+        <input id="btnCipher" class ="btn" type="submit" value="Ciframe"/>
     </div>
       </section>
   <div id="root"></div>
