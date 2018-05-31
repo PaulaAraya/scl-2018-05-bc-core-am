@@ -3,15 +3,16 @@
 //Dom de los botones
 //let boton1 = document.getElementById("boton1")
 
-window.onload = function () {
+//window.onload = function () {
 let numberPosition = document.getElementById("numberPosition")
 let descipherBoxResult = document.getElementById("descipherBoxResult")
 let cipherBoxResult = document.getElementById("cipherBoxResult")
 let btnDecipher = document.getElementById("btnDecipher")
 let btnCipher = document.getElementById("btnCipher")
+//};
 
 btnDecipher.addEventListener("click", () => {
-  let descipherBoxSubmit = document.getElementById("descipherBoxSubmit").value;
+  let descipherBoxSubmit = document.getElementById("descipherBoxSubmit").value.toUpperCase();
   console.log(descipherBoxSubmit);
   descipherBoxResult.innerHtml = descipherBoxSubmit;
   //descipherBoxSubmit.innerHtml = descipherBoxResult;
@@ -24,5 +25,4 @@ btnCipher.addEventListener("click", () => {
   cipherBoxResult.innerHtml = cipherBoxSubmit;
 }
 );
-};
 
