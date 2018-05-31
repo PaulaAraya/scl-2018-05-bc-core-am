@@ -14,16 +14,17 @@ btnDecipher.addEventListener("click", () => {
   let descipherBoxSubmit = document.getElementById("descipherBoxSubmit").value.toUpperCase();
   let npd = parseInt(numberPositionDescipher.value);
   console.log(descipherBoxSubmit);
-  descipherBoxResult.innerHTML = descipherBoxSubmit;
+  let descipherResult = window.cipher.encode(descipherBoxSubmit, npd);
+  descipherBoxResult.innerHTML = descipherResult;
 });
 
 btnCipher.addEventListener("click", () => {
   let cipherBoxSubmit = document.getElementById("cipherBoxSubmit").value.toUpperCase();
+  let npc = parseInt(numberPositionCipher.value);
   console.log(cipherBoxSubmit);
-  cipherBoxResult.innerHTML = cipherBoxSubmit;
+  let cipherResult = window.cipher.decode(cipherBoxSubmit, npc);
+  cipherBoxResult.innerHTML = cipherResult;
 });
-
-
 
 };  
 
