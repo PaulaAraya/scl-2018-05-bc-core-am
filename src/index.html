@@ -7,36 +7,29 @@
 </head>
 <body>
   <h1 id="title">Cifrado Cesar</h1>
-
  
+  <div id="positionLetter">
+    <!-- Aquí se determina cuantos lugares se moverán las letras-->
+    <h4> número de letra</h4>
+    <input class ="number" id = "numberPosition" type="number" min= 1 max= 20>
+  </div>
   <section>
-
- <!-- caja de descifrado -->      
-    
-          <textarea class="submit" name="descipherSubmit"> Escribe aquí el Cifrado Cesar </textarea>  
-          <textarea class="result" name="descipherSubmit"></textarea> 
-
-      <!-- Boton -->
-      <div>
-          <input id="boton" type="submit" value="Desciframe"/>
-        </div>
-      
+ <!-- cajas de descifrado -->      
+          <textarea id= "descipherBoxSubmit" class="submit" name="descipherSubmit" placeholder="Escribe aquí el Cifrado Cesar"></textarea>  
+          <textarea id= "descipherBoxResult" class="result" name="descipherSubmit"></textarea> 
   </section>
-
-  <!-- caja de cifrado -->
-
+  <!-- cajas de cifrado -->
   <section>    
-  
-        <textarea class="submit" name="cipherSubmit">Escribe aquí lo que deseas Cifrar</textarea>  
-        <textarea class="result" name="cipherSubmit"></textarea>   
- 
-    <!-- Boton -->
+        <textarea id= "cipherBoxSubmit" class="submit" name="cipherSubmit" placeholder="Escribe aquí lo que deseas Cifrar"></textarea>  
+        <textarea id="cipherBoxResult" class="result" name="cipherSubmit"></textarea>   
+    <!-- Botones -->
     <div>
-        <input id="boton" type="submit" value="Ciframe"/>
+        <input id="btnDecipher" type="submit" value="Desciframe"/>
+      </div>
+    <div>
+        <input id="btnCipher" type="submit" value="Ciframe"/>
     </div>
       </section>
-
-
   <div id="root"></div>
 
   <script src="cipher.js"></script>

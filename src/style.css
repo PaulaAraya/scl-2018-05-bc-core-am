@@ -1,37 +1,37 @@
 html {
-    background-color: #EFEFEF;
-   
+  background-color: #EFEFEF;
+ 
 }
 
 #title {
-    color: #A9A9A9 ;
-    background-color: #CAEBF2 ;
-    font-size: 400%;
-    letter-spacing: 20px;
-    text-align: center;
+  color: #A9A9A9 ;
+  background-color: #CAEBF2 ;
+  font-size: 400%;
+  letter-spacing: 20px;
+  text-align: center;
 
 }
 
 .submit{
-    resize: none;
+  resize: none;
 height: 200px;
-width: 500px;
+width: 350px;
 position: relative;
 left: 20px;
 
-  }
+}
 
 .result{
-    resize: none;
+  resize: none;
 height: 200px;
-width: 500px;
+width: 350px;
 position: relative;
 left: 180px;
-  }
+}
 
 #boton {
-    position: relative;
-    left: 580px;
-    bottom: 120px;
+  position: relative;
+  left: 580px;
+  bottom: 120px;
 
 }
