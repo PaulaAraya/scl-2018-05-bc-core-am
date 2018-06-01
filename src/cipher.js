@@ -13,7 +13,7 @@ window.cipher = {
   decode: (cipherBoxSubmit, npc) => {
     let result= "";
     for(let i= 0; i<cipherBoxSubmit.length; i++) {
-      let cesarEcuation2 = ((cipherBoxSubmit.charCodeAt(i) - 65 - npc)%26+65);
+      let cesarEcuation2 = ((cipherBoxSubmit.charCodeA(i) - 65 - npc)%26+65);
       result += String.fromCharCode(cesarEcuation2)
     }
     return result;
