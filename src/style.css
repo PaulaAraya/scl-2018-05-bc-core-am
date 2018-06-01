@@ -1,10 +1,81 @@
 body{
   background-image: url("img/fondo_grecoromano.jpeg");
   background-size: 100% ; 
-  background-repeat: no-repeat;
-  
+  background-repeat: no-repeat; 
+}
 
-  
+#title {
+  color:grey;
+  background-color: aliceblue;
+  opacity:0.5;
+  font-size: 400%;
+  letter-spacing: 20px;
+  text-align: center;
+}
+
+.result{
+  height: 205px;
+  width: 355px;
+  background-color:white;
+  border: 1px solid gray;
+  border-right-style: dashed;
+  border-left-style: dashed;
+  opacity:0.7;
+  display: inline-block;
+  position: relative;
+  left: 380px;
+  top: 22px;
+}
+
+.submit{
+  resize: none;
+  height: 200px;
+  width: 350px;
+  border-right-style: dashed;
+  border-left-style: dashed;
+  opacity:0.7;
+  display: inline-block;
+  position: relative;
+  left: 100px;
+  top: 20px;
+}
+
+#btnDecipher {
+  position: relative;
+  left: 570px;
+  bottom: 380px;
+}
+
+#btnCipher {
+  position: relative;
+  left: 580px;
+  bottom: 125px;
+}
+
+#numberPositionDescipher {
+  position: relative;
+  opacity:0.8;
+  left: 100px;
+  border: 1px dashed black;
+}
+
+#numberPositionCipher {
+  position: relative;
+  opacity:0.8;
+  left: 100px;
+  border: 1px dashed black;
+}
+/*.result{
+  height: 205px;
+  width: 355px;
+  background-color:white;
+  border: 1px solid gray;
+  border-right-style: dashed;
+  border-left-style: dashed;
+  display: inline-block;
+  position: relative;
+  left: 180px;
+  top: 22px;
 }
 
 /*
@@ -25,7 +96,6 @@ body{
   position: relative;
   left: 20px;
   top: 20px;
-
 }
 
 .result{
