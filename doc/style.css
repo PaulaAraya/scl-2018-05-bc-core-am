@@ -1,0 +1,126 @@
+body{
+  background-image: url("img/fondo_grecoromano.jpeg");
+  background-size: 100% ; 
+  background-repeat: no-repeat; 
+}
+
+#title {
+  color:grey;
+  background-color: aliceblue;
+  opacity:0.5;
+  font-size: 400%;
+  letter-spacing: 20px;
+  text-align: center;
+}
+
+.result{
+  height: 205px;
+  width: 355px;
+  background-color:white;
+  border: 1px solid black;
+  border-right-style: dashed;
+  border-left-style: dashed;
+  opacity:0.7;
+  display: inline-block;
+  position: relative;
+  left: 380px;
+  top: 22px;
+}
+
+.submit{
+  resize: none;
+  height: 200px;
+  width: 350px;
+  border-right-style: dashed;
+  border-left-style: dashed;
+  opacity:0.7;
+  display: inline-block;
+  position: relative;
+  left: 100px;
+  top: 20px;
+}
+
+#btnDecipher {
+  position: relative;
+  left: 570px;
+  bottom: 380px;
+  border: 1px solid black;
+}
+
+#btnCipher {
+  position: relative;
+  left: 580px;
+  bottom: 125px;
+  border: 1px solid black;
+}
+
+#numberPositionDescipher {
+  position: relative;
+  opacity:0.8;
+  left: 100px;
+  border: 1px dashed black;
+}
+
+#numberPositionCipher {
+  position: relative;
+  opacity:0.8;
+  left: 100px;
+  border: 1px dashed black;
+}
+
+h4{
+  opacity:0.7;
+  font-family: Arial, Helvetica, sans-serif; 
+}
+/*.result{
+  height: 205px;
+  width: 355px;
+  background-color:white;
+  border: 1px solid gray;
+  border-right-style: dashed;
+  border-left-style: dashed;
+  display: inline-block;
+  position: relative;
+  left: 180px;
+  top: 22px;
+}
+
+/*
+#title {
+  color: #A9A9A9 ;
+  background-color: #CAEBF2 ;
+  font-size: 400%;
+  letter-spacing: 20px;
+  text-align: center;
+
+}
+
+.submit{
+  resize: none;
+  height: 200px;
+  width: 350px;
+  display: inline-block;
+  position: relative;
+  left: 20px;
+  top: 20px;
+}
+
+.result{
+  height: 205px;
+  width: 355px;
+  background-color:white;
+  border: 1px solid gray;
+  border-right-style: dashed;
+  border-left-style: dashed;
+  display: inline-block;
+  position: relative;
+  left: 180px;
+  top: 22px;
+}
+
+.btn {
+  position: relative;
+  bottom: 120px;
+  left: 600x;
+  bottom: 50 ;
+}
