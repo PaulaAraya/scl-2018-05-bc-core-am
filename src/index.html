@@ -6,38 +6,38 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1 id="title">Cifrado Cesar</h1>
-  <div id="positionLetterDescipher">
-    <!-- Aquí se determina cuantos lugares se moverán las letras-->
-    <h4>Ingresa número</h4>
-    <input class ="number" id = "numberPositionDescipher" type="number" min= "1" max= "30">
-  </div>
-  <section>
- <!-- cajas de descifrado -->   
-      <textarea id= "descipherBoxSubmit" class="submit" name="descipherSubmit" placeholder="Desifrado"></textarea>  
-      <div id= "descipherBoxResult" class="result" name="descipherSubmit"></div> <!-- dejo la caja de texto como div vacio -->
-  </section>
-  <div id="positionLetterCipher">
-    <!-- Aquí se determina cuantos lugares se moverán las letras para cifrar-->
-    <h4>Ingresa número</h4>
-    <input class ="number" id = "numberPositionCipher" type="number" min= "1" max= "30">
-  </div>
-  
-  <!-- cajas de cifrado -->
-<section>    
-        <textarea id= "cipherBoxSubmit" class="submit" name="cipherSubmit" placeholder="Cifrado"></textarea>  
-        <div id="cipherBoxResult" class="result" name="cipherSubmit"></div>   
-    <!-- Botones -->
-    <div>
-        <button id="btnDecipher" class ="btn" >Encriptar</button>
-      </div>
-    <div>
-        <button id="btnCipher" class ="btn" >Traducir</button>
-    </div>
-  </div>  
-</section> 
-  <div id="root"></div>
-  <script src="cipher.js"></script>
-  <script src="index.js"></script>
+	<h1 id="title">Cifrado Cesar</h1>
+	<section>
+		<div id="positionLetterDescipher">
+			<!-- Aquí se determina cuantos lugares se moverán las letras-->
+			<h4>Ingresa número</h4>
+			<input class="number" id="numberPositionDescipher" type="number" min="1" max="30">
+		</div>
+		<!-- cajas de descifrado -->
+    <textarea id="descipherBoxSubmit" class="submit" name="descipherSubmit" placeholder="Desifrado"></textarea>
+    <!-- dejo la caja de texto como div vacio -->
+		<div id="descipherBoxResult" class="result" name="descipherSubmit"></div>
+	</section>
+	<!-- cajas de cifrado -->
+	<section>
+		<div id="positionLetterCipher">
+			<!-- Aquí se determina cuantos lugares se moverán las letras para cifrar-->
+			<h4>Ingresa número</h4>
+			<input class="number" id="numberPositionCipher" type="number" min="1" max="30">
+		</div>
+		<textarea id="cipherBoxSubmit" class="submit" name="cipherSubmit" placeholder="Cifrado"></textarea>
+		<div id="cipherBoxResult" class="result" name="cipherSubmit"></div>
+		<!-- Botones -->
+		<div>
+			<button id="btnDecipher" class="btn">Encriptar</button>
+		</div>
+		<div>
+			<button id="btnCipher" class="btn">Traducir</button>
+		</div>
+		</div>
+	</section>
+	<div id="root"></div>
+	<script src="cipher.js"></script>
+	<script src="index.js"></script>
 </body>
 </html>
