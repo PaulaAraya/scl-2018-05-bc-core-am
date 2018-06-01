@@ -1,6 +1,6 @@
 
 //crear funcion con variables window.onload de los botones, numero de desplazamiento y cajas con document.getElementByID
-//Dom de los botones
+
 window.onload = function () {
 let numberPositionDescipher = document.getElementById("numberPositionDescipher")
 let numberPositionCipher = document.getElementById("numberPositionCipher")

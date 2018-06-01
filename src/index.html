@@ -7,11 +7,11 @@
 </head>
 <body>
   <h1 id="title">Cifrado Cesar</h1>
- 
+ <div class="container">
   <div id="positionLetterDescipher">
     <!-- Aquí se determina cuantos lugares se moverán las letras-->
     <h4> número de letra para decifrar</h4>
-    <input class ="number" id = "numberPositionDescipher" type="number" min= "1" max= "20">
+    <input class ="number" id = "numberPositionDescipher" type="number" min= "1" max= "30">
   </div>
   <section>
  <!-- cajas de descifrado -->   
@@ -25,7 +25,7 @@
     <h4> número de letra para cifrar</h4>
     <input class ="number" id = "numberPositionCipher" type="number" min= "1" max= "30">
   </div>
-  <section>
+  
   <!-- cajas de cifrado -->
   <section>    
         <textarea id= "cipherBoxSubmit" class="submit" name="cipherSubmit" placeholder="Cifrado"></textarea>  
@@ -38,6 +38,7 @@
         <button id="btnCipher" class ="btn" >Ciframe</button>
     </div>
       </section>
+</div>      
   <div id="root"></div>
 
   <script src="cipher.js"></script>

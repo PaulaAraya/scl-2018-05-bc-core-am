@@ -1,8 +1,13 @@
-html {
-  background-color: #EFEFEF;
- 
+body{
+  background-image: url("img/fondo_grecoromano.jpeg");
+  background-size: 100% ; 
+  background-repeat: no-repeat;
+  
+
+  
 }
 
+/*
 #title {
   color: #A9A9A9 ;
   background-color: #CAEBF2 ;
