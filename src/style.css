@@ -17,7 +17,7 @@ body{
   height: 205px;
   width: 355px;
   background-color:white;
-  border: 1px solid gray;
+  border: 1px solid black;
   border-right-style: dashed;
   border-left-style: dashed;
   opacity:0.7;
@@ -44,12 +44,14 @@ body{
   position: relative;
   left: 570px;
   bottom: 380px;
+  border: 1px solid black;
 }
 
 #btnCipher {
   position: relative;
   left: 580px;
   bottom: 125px;
+  border: 1px solid black;
 }
 
 #numberPositionDescipher {
@@ -64,6 +66,11 @@ body{
   opacity:0.8;
   left: 100px;
   border: 1px dashed black;
+}
+
+h4{
+  opacity:0.7;
+  font-family: Arial, Helvetica, sans-serif; 
 }
 /*.result{
   height: 205px;
