@@ -13,10 +13,12 @@
 			<h4>Ingresa número</h4>
 			<input class="number" id="numberPositionDescipher" type="number" min="1" max="30">
 		</div>
-		<!-- cajas de descifrado -->
-    <textarea id="descipherBoxSubmit" class="submit" name="descipherSubmit" placeholder="Desifrado"></textarea>
-    <!-- dejo la caja de texto como div vacio -->
-		<div id="descipherBoxResult" class="result" name="descipherSubmit"></div>
+    <!-- cajas de descifrado -->
+    <div>
+      <textarea id="descipherBoxSubmit" class="submit" name="descipherSubmit" placeholder="Desifrado"></textarea>
+      <!-- dejo la caja de texto como div vacio -->
+		  <div id="descipherBoxResult" class="result" name="descipherSubmit"></div>
+    </div>
 	</section>
 	<!-- cajas de cifrado -->
 	<section>
@@ -24,9 +26,11 @@
 			<!-- Aquí se determina cuantos lugares se moverán las letras para cifrar-->
 			<h4>Ingresa número</h4>
 			<input class="number" id="numberPositionCipher" type="number" min="1" max="30">
-		</div>
-		<textarea id="cipherBoxSubmit" class="submit" name="cipherSubmit" placeholder="Cifrado"></textarea>
-		<div id="cipherBoxResult" class="result" name="cipherSubmit"></div>
+    </div>
+    <div>
+		  <textarea id="cipherBoxSubmit" class="submit" name="cipherSubmit"     placeholder="Cifrado"></textarea>
+      <div id="cipherBoxResult" class="result" name="cipherSubmit"></div>
+    </div>
 		<!-- Botones -->
 		<div>
 			<button id="btnDecipher" class="btn">Encriptar</button>
